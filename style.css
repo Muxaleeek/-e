@@ -1,0 +1,254 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.block1{
+    width: 25%;
+    height: 100%;
+    background: conic-gradient(at 50% 25%, rgb(146, 35, 97), yellow, rgb(15, 0, 128));
+    color: aliceblue;
+
+}
+.block2{
+    width: 25%;
+    height: 100%;
+    background-image: conic-gradient(at 50% 25%, rgb(95, 151, 147), rgb(76, 219, 47), rgb(103, 100, 129));
+    color: aliceblue;
+}
+.block2 li{
+    background-color: rgb(255, 217, 0);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    color: black;
+    font-weight:bold;
+    width: 70%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-position:inside;
+    list-style-type:circle;
+    list-style-type: "\1F92B" ;
+}
+.block2 li:hover{
+    background-color: rgb(73, 41, 41);
+    color: white;
+    list-style-type: "\274";
+    width: 70%;
+    height: 70px;
+}
+
+.block3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(14, 1, 90);
+    color: aliceblue;
+}
+.block3 li{
+    background-color: rgb(0, 255, 0);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    color: black;
+    font-weight:bold;
+    width: 80%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-position:inside;
+    list-style-type:circle;
+    list-style-type: "\1F92B" ;
+}
+.block3 li:hover{
+    background-color: rgb(140, 0, 255);
+    color: rgb(0, 0, 0);
+    list-style-type: "\274";
+    width: 70%;
+    height: 70px;
+}
+
+.block4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(90, 6, 79);
+    color: aliceblue;
+}
+.block4 li{
+    background-color: rgb(120, 119, 182);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    color: black;
+    font-weight:bold;
+    width: 80%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-position:inside;
+    list-style-type:circle;
+    list-style-type: "\1F92B" ;
+}
+.block4 li:hover{
+    background-color: rgb(0, 255, 170);
+    color: rgb(0, 0, 0);
+    list-style-type: "\274";
+    width: 70%;
+    height: 70px;
+}
+.block1 li{
+    background-color: rgb(0, 255, 255);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius: 3em;
+    color: black;
+    font-weight:bold;
+    width: 70%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-position:inside;
+    list-style-type:georgian;
+    list-style-type: "\1F618" ;
+}
+.block1 li:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    list-style-type: "\274";
+    width: 70%;
+    height: 70px;
+}
+.nav{
+    position: sticky;
+     top: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 145, 0);
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white ;
+    text-align: center;
+    overflow: hidden;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: azure;
+    padding: 8px 16px;
+    float:inline-start ;
+}
+.nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.block5{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    padding: 50px;
+}
+.qu1{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(55, 0, 255);
+    color: white;
+    padding: 20px 20px;
+    font-size: 25px;
+    text-align: left;
+    text-decoration:double;
+    border: none;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 0px 100px black;
+    cursor: pointer;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}.qu1:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0px 0px 0px black;
+
+}
+.qu1:active{
+    background-color: rgb(255, 0, 0);
+    color: blueviolet;
+
+}
+form{
+    width: 500px;
+    float: right;
+    display: flex;
+
+}
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+
+}
+.search{
+    width: 100%;
+}
+.button{
+    width: 25%;
+    background-color: rgb(110, 110, 181);
+    color: white;
+
+}
+.button:hover{
+    cursor:pointer;
+    background-color: rgb(25, 167, 0);
+    color: rgb(255, 255, 255);
+}
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+    
+    
+}
